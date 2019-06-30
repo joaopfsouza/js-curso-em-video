@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Primeiros Passos DOM </title>
+
+    <style>
+    
+        body{
+
+            background: rgb(68, 107, 165);
+            color: white;
+            font: normal 18pt Arial;
+
+        }
+    
+    </style>
+
+
+</head>
+<body>
+    <h1>Iniciando estudos com DOM </h1>
+
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo usar <span class="msg" style="font-weight: bolder">DOM - Document Object Model</span> em JavaScript</p>
+
+    <div id="msg" name='msg' >Clique em mim</div>
+
+    <script>
+        window.document.writeln(window.document.charset)
+        document.writeln(window.navigator.appName)
+        document.writeln(window.document.URL)
+
+        var p1 = document.getElementsByTagName('p')[0]
+        var p2 = document.getElementsByTagName('p')[1]
+        document.writeln(`Está escrito: ${p2.innerHTML}`)
+        document.body.style.background = 'green'
+        p1.style.color= 'yellow'
+        //alert(`Está escrito: ${p2.innerText}`)
+
+        var d = document.getElementById('msg')
+        d.style.background = 'blue'
+        //d.innerText= "Estou aguardando"
+
+
+        var d = window.document.getElementsByName('msg')[0]
+        d.style.background = 'red'
+        d.innerText = 'Teste'
+
+
+        var d = window.document.getElementsByClassName('msg')[0]
+        d.style.color = 'black'
+
+
+        var d = window.document.querySelector("div#msg")
+        d.style.background = 'blue'
+
+        var d = window.document.querySelector("span.msg")
+        d.style.background = 'blue'
+
+    </script>
+</body>
+</html>
