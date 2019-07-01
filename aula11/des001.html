@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+        div {
+            margin-top: 50px;
+            height: 200px;
+            width: 300px;
+            background: green;
+            text-align: center;
+            line-height: 30px;
+            font: 20px;
+            color: white;
+        }
+    </style>
+
+
+    <title>IBGE</title>
+</head>
+
+<body>
+    <h1>Sistemas do IBGE</h1>
+    Seu pais de origem: <input type="text" name="txtpais" id="txtpais"> 
+    <input type="button" value="Verificar" id="responder">
+    <div id="result">
+
+    </div>
+
+    <script>
+        var btn = document.getElementById("responder")
+        btn.addEventListener('click',responder)
+        var res = document.querySelector("div#result")
+
+        function responder() {
+
+            var txtp = document.querySelector('input#txtpais')
+            var pais = txtp.value
+            res.innerHTML = `Seu pais  <strong>${pais}</strong>`
+            
+            if(pais == "Brasil"){
+
+                res.innerHTML += `<p><strong>Brasileiro</strong></p>`
+
+
+            }else{
+
+                res.innerHTML += `<p><strong>Estrageiro</strong></p>`
+            }
+
+
+
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -21,6 +21,8 @@
 - [Módulo C](#M%C3%B3dulo-C)
   - [Aula09](#Aula09)
   - [Aula 10](#Aula-10)
+- [Módulo D](#M%C3%B3dulo-D)
+  - [Aula 12](#Aula-12)
 
 
 
@@ -281,3 +283,48 @@ fucntion action(param){
 }
 
 ```
+
+# Módulo D
+
+## Aula 12
+
+```js
+
+switch(var){
+
+  case var1:
+
+    break;
+
+  case var2:
+    break;
+
+  case var3:
+  case var4
+    break;
+  
+
+  default:
+
+
+
+}
+
+
+/*
+ var agora = new Date()
+ var diaSem = agora.getDay()
+ 
+ 0 - Domingo
+ 1 - Segunda
+ 2 - Terça
+ 3 - Quarta
+ 4 - Quinta
+ 5 - Sexta
+ 6 - Sábado
+ 
+*/
+
+
+```
+
