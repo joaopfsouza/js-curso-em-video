@@ -24,6 +24,7 @@
 - [Módulo D](#M%C3%B3dulo-D)
   - [Aula 12](#Aula-12)
   - [Aula 12 Ex014](#Aula-12-Ex014)
+  - [Aula 12 EX015](#Aula-12-EX015)
 
 
 
@@ -333,3 +334,14 @@ switch(var){
 
 [Site de imagens](https://www.pexels.com/pt-br)
 
+## Aula 12 EX015
+
+Criação de elemento html pelo javascript
+alterando valor de atributos e
+inserindo o elemento no HTML
+
+```js
+var img = document.createElement('img')
+img.setAttribute('id', 'foto')
+resultado.appendChild(img)
+```
