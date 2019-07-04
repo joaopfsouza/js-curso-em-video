@@ -25,6 +25,8 @@
   - [Aula 12](#Aula-12)
   - [Aula 12 Ex014](#Aula-12-Ex014)
   - [Aula 12 EX015](#Aula-12-EX015)
+- [Módulo E](#M%C3%B3dulo-E)
+  - [Aula 14 Ex16](#Aula-14-Ex16)
 
 
 
@@ -345,3 +347,11 @@ var img = document.createElement('img')
 img.setAttribute('id', 'foto')
 resultado.appendChild(img)
 ```
+
+# Módulo E
+
+## Aula 14 Ex16
+
+(Emotiocons)[https://unicode.org/emoji/charts-12.0/full-emoji-list.html]
+
+
