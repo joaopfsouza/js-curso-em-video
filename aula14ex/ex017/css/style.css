@@ -20,6 +20,16 @@ section {
 
 }
 
+select{
+    width: 400px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+/* p{
+    margin-left: 75px;
+} */
+
 footer {
 
     color: white;
