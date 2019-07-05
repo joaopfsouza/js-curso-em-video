@@ -27,6 +27,8 @@
   - [Aula 12 EX015](#Aula-12-EX015)
 - [Módulo E](#M%C3%B3dulo-E)
   - [Aula 14 Ex16](#Aula-14-Ex16)
+- [Módulo F](#M%C3%B3dulo-F)
+  - [Aula 15](#Aula-15)
 
 
 
@@ -355,3 +357,6 @@ resultado.appendChild(img)
 (Emotiocons)[https://unicode.org/emoji/charts-12.0/full-emoji-list.html]
 
 
+# Módulo F
+
+## Aula 15
